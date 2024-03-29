@@ -2,10 +2,36 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 10 e teste também do Git</title>
 </head>
 <body>
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja!
+    </div>
+
+
+<script>
+    var area = window.document.getElementById('area')
+
+    function clicar() {
+        area.innerText = 'Você clicou!'
+    }
     
+    function entrar() {
+        area.innerText = 'Entrou!'
+    }
+
+    function sair() {
+        area.innerText = "Saiu"
+    }
+
+</script>
+
+
+
 </body>
+
 </html>
