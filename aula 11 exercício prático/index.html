@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estrangeiro?</title>
+</head>
+
+
+<body>
+    <div>
+        <h1>Você é estrangeiro? Vamos descobrir!</h1>
+    </div>
+    <div id="txt">
+        Coloque aqui o país que você nasceu: <br>
+    </div>
+    <div>
+        <input type="text" placeholder="Onde você nasceu?" id="pais">
+        <input type="button" value="Verificar" onclick="verificar()">
+    </div>
+    <div id="resultado">
+        <strong> Ao clicar em verificar, aparecerá aqui sua nacionalidade.</strong>
+    </div>
+
+
+<script>
+
+    function verificar() {
+        var pais = window.document.getElementById('pais').value
+        var resultado = window.document.getElementById('resultado')
+
+        if (pais !== 'Brasil') {
+            resultado.innerHTML = `Você é estrangeiro, pois nasceu na/o <strong>${pais}</strong>.`
+        } else {
+            resultado.innerHTML = 'Você é <strong>Brasileiro!</strong>.'
+        }
+
+    }
+
+</script>
+</body>
+</html>
