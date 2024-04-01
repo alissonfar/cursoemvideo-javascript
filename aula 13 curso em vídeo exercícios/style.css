@@ -21,3 +21,21 @@ section {
 footer {
     text-align: center;
 }
+
+div {
+    text-align: center;
+    padding: 9px;
+
+}
+
+header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #333; /* Cor do texto */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    margin-top: 50px; /* Espaçamento superior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
