@@ -16,8 +16,8 @@ function contar() {
 
     var resultado = window.document.getElementById('resultado')
     
-
-    if (inicio.length == 0 || fim.length == 0 || passo.length == 0) {
+  
+    if (inicio.length == 0|| fim.length == 0 || passo.length == 0) {
         window.alert('ERRO - Os campos não podem estar vazios.')
     } else {
         resultado.style.padding = '30px'
