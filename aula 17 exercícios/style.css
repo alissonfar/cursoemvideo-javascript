@@ -26,43 +26,16 @@ body {
 
 }
 
-.fim {
-    font: normal 25px arial;
-    padding: 3px ;
-}
-
-.passo {
-    font: normal 25px arial;
-    padding: 3px;
-}
-
 .resultado {
     font: normal 25px arial;
 }
 
-.contar input[type="button"] {
-    background-color: #0004ff; /* Cor de fundo do botão */
-    border: none; /* Remover a borda do botão */
-    color: white; /* Cor do texto do botão */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Remover decoração do texto */
-    display: inline-block; /* Exibir como bloco */
-    font-size: 16px; /* Tamanho da fonte */
-    margin: 4px 2px; /* Margem entre botões */
-    cursor: pointer; /* Cursor do mouse */
-    border-radius: 4px; /* Bordas arredondadas */
-}
-
-/* Estilização quando o cursor do mouse passa por cima do botão */
-.contar input[type="button"]:hover {
-    background-color: #45a049; /* Cor de fundo alterada */
-}
 
 input {
    
             padding: 8px; /* Espaçamento interno */
             margin-bottom: 10px; /* Margem inferior */
+            margin-top: 10px;
             border: 1px solid #ccc; /* Borda cinza */
             border-radius: 4px; /* Bordas arredondadas */
             box-sizing: border-box; /* Faz com que o padding e a borda sejam incluídos na largura */
